@@ -15,6 +15,12 @@ Parameters (User input, see below):
     plotTriggerTime: If True, will plot a dashed vertical line at the trigger time
 '''
 
+# imports
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+from pathlib import Path
+
 # ------------------ User input ------------------
 binPath = Path('F:/example/path')
 triggerFilePath = Path('F:/example/path2')
@@ -28,11 +34,6 @@ plotTriggerTime = True
 # ------------------------------------------------
 
 
-# imports
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-from pathlib import Path
 
 # set plot style
 plt.rcParams['font.size'] = 15
