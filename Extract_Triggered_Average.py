@@ -1,6 +1,6 @@
 '''
 Script to extract trigger - synchronized average raw data from binary neuropixel AP data
-@author Moritz Drüke, 2024
+@author Moritz Drüke, 2024, https://github.com/MDrueke/NPX_Extract_Triggered_Average/tree/main
 
 Parameters (User input, see below):
     binPath: Path to raw/preprocessed .bin data file (AP file from SpikeGLX)
